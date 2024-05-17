@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:25px;
+    background-size: cover;
+}
+.Nav{
+    background-color: black;
+}
+ul{
+    display: flex;
+    justify-content: end;
+    list-style: none;
+    background-color: black;
+}
+#food_logo{
+    height: 30px;
+    width: 80px;
+    padding-right: 10px;
+    background-color: black;
+}
+#search{
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+}
+#logo{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(245, 242, 187);
+    border-radius: 20px;
+}
+li{
+    padding: 10px 10px 10px 10px;
+    color: aliceblue;
+    background-color: black;
+}
+a{
+   color: aliceblue; 
+   text-decoration: none;
+}
+a:hover{
+    color: blanchedalmond;
+}
+.image-container img {
+    display: block;
+    width: 100%;
+  }
+.overlay-text{
+    position: absolute;
+    top: 20%;  
+    color: #fff; 
+    padding: 10px 20px; 
+    font-size: 20px;
+    width: 400px;
+    margin-top: 50px;
+}
+h1{
+    padding-bottom: 20px;
+    font-size: 50px;
+}
+h1:hover{
+    color: blanchedalmond;
+}
+p{
+    font-size: large;
+    padding: 5px;
+}
+button{
+    background-color: rgb(216, 125, 14);
+    padding: 5px;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: larger;
+}
+button:hover{
+    background-color: rgb(138, 81, 11);
+}
+#bg_img{
+    width: 100%;
+    height:fit-content;
+}
+.box{
+    background-color: antiquewhite;
+}
+#caption{
+    padding: 10px;
+    background-color: antiquewhite;
+    text-align: center;
+    border-style: solid;
+    border-top: 2px black;
+}
+#caption:hover{
+    box-shadow: 2px 2px 5px rgb(87, 86, 85);
+    color: rgb(22, 5, 117);
+}
+.menu{
+    align-items: center; 
+    justify-content: space-evenly; 
+    text-align: center;
+}
+#menuFood{
+    display: flex;
+    height: 300px;
+    width: 280px;
+    padding: 10px 10px 10px 10px;
+    justify-content: space-evenly;
+    border-radius: 250px;
+    text-align: center;
+    align-items: center;
+}
+#col{
+    background-color:antiquewhite;
+    border: 2px 2px black;
+}
+#col:hover{
+    box-shadow: 2px 2px 5px rgb(87, 86, 85);
+    color: rgb(22, 5, 117);
+    background-color: bisque;
+}
+#galleryHeading{
+    text-align: center;
+    padding-top: 10px;
+    border-style: solid;
+    border: 2px 2px black;
+}
+#galleryHeading:hover{
+    box-shadow: 2px 2px 5px rgb(87, 86, 85);
+    color: rgb(22, 5, 117);
+}
+.Gallery {
+    height: 100%;
+    width: 100%;
+    background-color: antiquewhite;
+}
+#photos{
+    margin-left: 60px;
+    margin-top: 10px;
+    height: 300px;
+    width: 500px;
+    border-width: 2px black;
+    border-style: solid;
+    border-radius: 20px;
+}
+#photos:hover{
+    box-shadow: 5px 5px 15px black;
+}
+footer{
+    background-color: rgb(32, 32, 32);
+    color: #fff;
+    text-align: center;
+}
+#footer{
+    color: rgb(28, 153, 241);
+}
+#footer:hover{
+    color: rgb(4, 65, 156);
+}
+p:hover{
+    color: blanchedalmond;
+}

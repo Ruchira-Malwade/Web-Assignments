@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="employee.xsl" type="text/xsl"?>
+
+<!DOCTYPE Company SYSTEM "employee.dtd">
+<Company>
+        <Employee>
+            <EmpId>111</EmpId>
+            <EmpName>Aditi</EmpName>
+            <Department>Software Development</Department>
+            <Salary>80000</Salary>
+        </Employee>
+        <Employee>
+            <EmpId>222</EmpId>
+            <EmpName>Aarya</EmpName>
+            <Department>Software testing</Department>
+            <Salary>75000</Salary>
+        </Employee>
+        <Employee>
+            <EmpId>333</EmpId>
+            <EmpName>Nikhil</EmpName>
+            <Department>Android Development</Department>
+            <Salary>80000</Salary>
+        </Employee>
+        <Employee>
+            <EmpId>444</EmpId>
+            <EmpName>Aryan</EmpName>
+            <Department>Full stack Development</Department>
+            <Salary>65000</Salary>
+        </Employee>
+</Company>
